@@ -19,6 +19,12 @@ This folder contains an implementation of the **Xiaolin-Wu antialiased line-draw
 2. Execute the binary in a RISC-V emulator (such as QEMU).  
 3. Open the generated `.bmp` file in an image viewer to see the result.  
 
+### Example:
+         In             --------->        Out
+![](docs/screenshots/risc_v_in.bmp)                   ![](docs/screenshots/risc_v_out.bmp)
+         
+                        --------->
+
 ---
 
 ### **`x86/` - Mandelbrot Set Rendering**  
@@ -35,3 +41,5 @@ The program:
 1. Assemble the code with `nasm` (Netwide Assembler):  
    ```sh
    nasm -f elf32 mandelbrot.asm -o mandelbrot.o
+
+![](docs/screenshots/x86_fractal.png) 
